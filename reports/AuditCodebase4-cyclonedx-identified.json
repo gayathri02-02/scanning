@@ -1,0 +1,1411 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-15T06:03:10.121Z",
+    "authors": [
+      {
+        "name": "SCANOSS",
+        "email": "info@scanoss.com"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "AuditCodebase4",
+      "version": "NOASSERTION",
+      "bom-ref": "BomRef.nhpku0hbo68.hgl9vj6pmsg"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "pkg:github/mottie/visualnav",
+      "version": "v2.3",
+      "bom-ref": "BomRef.04ne5jkvcho.abegg9tpntg",
+      "publisher": "mottie",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "acknowledgement": "concluded"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:github/mottie/visualnav",
+      "externalReferences": [
+        {
+          "url": "https://github.com/mottie/visualnav",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:stackoverflow/26692046",
+      "version": "4",
+      "bom-ref": "BomRef.05f837mng0o.orobcl8htrg",
+      "publisher": "user3251779",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-SA-3.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "CC-BY-SA-3.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:stackoverflow/26692046",
+      "externalReferences": [
+        {
+          "url": "https://stackoverflow.com/revisions/26692046/4",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github.com/Rupan/blowfish/blob/master/blowfish",
+      "version": "master",
+      "bom-ref": "BomRef.15228g9i27g.q78sdh4sjbg",
+      "publisher": "Rupan/blowfish/blob/master",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github.com/Rupan/blowfish/blob/master/blowfish",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Rupan/blowfish/blob/master/blowfish.c",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:pypi/pandas",
+      "version": "0.16.1",
+      "bom-ref": "BomRef.18edksht5v.8gbh6qs07po",
+      "publisher": "pypi",
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "0BSD",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pandas",
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/pandas",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/geekzoostudio/o2omobile_php",
+      "version": "53c66cf",
+      "bom-ref": "BomRef.1bn9iekfqg.kq6j1lpivo8",
+      "publisher": "GeekZooStudio",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/geekzoostudio/o2omobile_php",
+      "externalReferences": [
+        {
+          "url": "https://github.com/geekzoostudio/o2omobile_php",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:maven/org.jboss.weld.probe/weld-probe-core",
+      "version": "3.0.0.Alpha10",
+      "bom-ref": "BomRef.30mct5tu3cg.h6rtn1kce28",
+      "publisher": "org.jboss.weld.probe",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.weld.probe/weld-probe-core",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.jboss.weld.probe/weld-probe-core",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/servicestack/servicestack",
+      "version": "v4.0.38",
+      "bom-ref": "BomRef.45gn2sad6ko.lgcsrjsmjvg",
+      "publisher": "servicestack",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-or-later",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "name": "LicenseRef-bsd-3--clause-license"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MS-PL",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:github/servicestack/servicestack",
+      "externalReferences": [
+        {
+          "url": "https://github.com/servicestack/servicestack",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:stackoverflow/19656863",
+      "version": "1",
+      "bom-ref": "BomRef.4c9p09kkm7.tkjbd11vrno",
+      "publisher": "Aaron F",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-SA-3.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "CC-BY-SA-3.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:stackoverflow/19656863",
+      "externalReferences": [
+        {
+          "url": "https://stackoverflow.com/revisions/19656863/1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/malihu/malihu-custom-scrollbar-plugin",
+      "version": "3.0.6",
+      "bom-ref": "BomRef.4j59jac90eo.em0c7n5jc8",
+      "publisher": "malihu",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/malihu/malihu-custom-scrollbar-plugin",
+      "externalReferences": [
+        {
+          "url": "https://github.com/malihu/malihu-custom-scrollbar-plugin",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:pypi/ujson",
+      "version": "1.33",
+      "bom-ref": "BomRef.4p77c345ueg.80nhbnsi5do",
+      "publisher": "Jonas Tarnstrom",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/ujson",
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/ujson",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github.com/RsyncProject/rsync/blob",
+      "version": "v3.0.7",
+      "bom-ref": "BomRef.7e8umcqr7b8.bnac638ggm",
+      "publisher": "RsyncProject/rsync",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github.com/RsyncProject/rsync/blob",
+      "externalReferences": [
+        {
+          "url": "https://github.com/RsyncProject/rsync/blob/v3.0.7/rsync.c",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:bitbucket/ritehite2/rsync-git",
+      "version": "v1.6.6",
+      "bom-ref": "BomRef.8boi098lerg.s36gem9ok3o",
+      "publisher": "ritehite2",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later",
+            "acknowledgement": "concluded"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-only",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:bitbucket/ritehite2/rsync-git",
+      "externalReferences": [
+        {
+          "url": "https://bitbucket.org/ritehite2/rsync-git/get/v1.6.6.zip",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/servicestack/servicestack",
+      "version": "v4.0.44",
+      "bom-ref": "BomRef.9ckoelu5t5.h5k4v6iv8hg",
+      "publisher": "servicestack",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "concluded"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-or-later",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MS-PL",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:github/servicestack/servicestack",
+      "externalReferences": [
+        {
+          "url": "https://github.com/servicestack/servicestack",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:maven/org.apache.logging.log4j/log4j-core",
+      "version": "2.1",
+      "bom-ref": "BomRef.9sesdjaif4.ns9qd59v5d",
+      "publisher": "org.apache.logging.log4j",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/spbooks/jquery2",
+      "version": "569eba4",
+      "bom-ref": "BomRef.a19ohdkq0ig.ovtb0qufc2o",
+      "publisher": "spbooks",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/spbooks/jquery2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/spbooks/jquery2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:generic/codeplex.com/nuget",
+      "version": "NuGet 2.8.5",
+      "bom-ref": "BomRef.aoiouo0g3mg.t7rkgqi9cvo",
+      "publisher": "codeplex",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:generic/codeplex.com/nuget",
+      "externalReferences": [
+        {
+          "url": "https://codeplex.com/nuget/29/5dd7eea6-f578-4233-aa7a-6857b58dbbf5/NuGet.exe",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:bitbucket/rhdengineering/rsync-git",
+      "version": "v1.6.7",
+      "bom-ref": "BomRef.brdu4l3toso.1qg52f9p1o",
+      "publisher": "rhdengineering",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:bitbucket/rhdengineering/rsync-git",
+      "externalReferences": [
+        {
+          "url": "https://bitbucket.org/rhdengineering/rsync-git/get/v1.6.7.zip",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/w7xg/blog_pan",
+      "version": "2.0",
+      "bom-ref": "BomRef.c7l736oj3j8.shue8hhnhl",
+      "publisher": "w7xg",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/w7xg/blog_pan",
+      "externalReferences": [
+        {
+          "url": "https://github.com/w7xg/blog_pan",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/jquerygeo/geo",
+      "version": "1.0b1",
+      "bom-ref": "BomRef.d0u0qoaj0so.jhagkirh78",
+      "publisher": "jquerygeo",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/jquerygeo/geo",
+      "externalReferences": [
+        {
+          "url": "https://github.com/jquerygeo/geo",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:npm/malihu-custom-scrollbar-plugin",
+      "version": "3.0.9",
+      "bom-ref": "BomRef.djdug3f4i1o.hbr1l206aeo",
+      "publisher": "malihu",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:npm/malihu-custom-scrollbar-plugin",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/malihu-custom-scrollbar-plugin",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/jquery/jquery-mousewheel",
+      "version": "3.1.12",
+      "bom-ref": "BomRef.do2t9pn4ebo.biuaj8l180o",
+      "publisher": "jquery",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/jquery/jquery-mousewheel",
+      "externalReferences": [
+        {
+          "url": "https://github.com/jquery/jquery-mousewheel",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg: github.com/RsyncProject",
+      "version": "V3.0.5",
+      "bom-ref": "BomRef.e9s5sa3qh9.nr8nq8nrtu8",
+      "publisher": "NOASSERTION",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github.com/RsyncProject",
+      "externalReferences": [
+        {
+          "url": "https://github.com/RsyncProject/rsync/blob/v3.0.5/rsync.h",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/zadam/trilium",
+      "version": "v0.20.2",
+      "bom-ref": "BomRef.ej6oar8ob5.t0fk8arls0g",
+      "publisher": "zadam",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/zadam/trilium",
+      "externalReferences": [
+        {
+          "url": "https://github.com/zadam/trilium",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:npm/jquery",
+      "version": "1.9.1",
+      "bom-ref": "BomRef.f4tegn661vo.sfkpndf5j2o",
+      "publisher": "OpenJS Foundation and other contributors",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:npm/jquery",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/jquery",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github.com/matthewb66/demo-duck_hub_full/blob",
+      "version": " b4d5e43  ",
+      "bom-ref": "BomRef.gfie9hc5278.6qk4e7rearo",
+      "publisher": "matthewb66/demo-duck_hub_full",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github.com/matthewb66/demo-duck_hub_full/blob",
+      "externalReferences": [
+        {
+          "url": "https://github.com/matthewb66/demo-duck_hub_full/blob/main/Tutorial_Files/samplefile1.h",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/matthewb66/duck_hub_full",
+      "version": "b4d5e43",
+      "bom-ref": "BomRef.ic3csj4kdpo.nbdvcfnabco",
+      "publisher": "matthewb66",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/matthewb66/duck_hub_full",
+      "externalReferences": [
+        {
+          "url": "https://github.com/matthewb66/duck_hub_full",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:maven/org.apache.logging.log4j/log4j-api",
+      "version": "2.3",
+      "bom-ref": "BomRef.icim35mj0ho.na8ouaqo788",
+      "publisher": "org.apache.logging.log4j",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:nuget/DotNetOpenAuth.Ultimate",
+      "version": "4.3.4.13329",
+      "bom-ref": "BomRef.l587tnfsang.k97f36us3n8",
+      "publisher": "NOASSERTION",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-4.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "name": "LicenseRef-scancode-free-unknown"
+          }
+        },
+        {
+          "license": {
+            "id": "MS-PL",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MS-PL",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/DotNetOpenAuth.Ultimate"
+    },
+    {
+      "type": "library",
+      "name": "pkg:maven/funcool/tubax",
+      "version": "0.1.1",
+      "bom-ref": "BomRef.l6ibsqnccbo.h6k23417up",
+      "publisher": "funcool",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:maven/funcool/tubax",
+      "externalReferences": [
+        {
+          "url": "https://mvnrepository.com/artifact/funcool/tubax",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/components/jquery",
+      "version": "2.1.0",
+      "bom-ref": "BomRef.m4u8p2lbsdg.n9tjmbh5arg",
+      "publisher": "components",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/components/jquery",
+      "externalReferences": [
+        {
+          "url": "https://github.com/components/jquery",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:nuget/Microsoft.Bcl",
+      "version": "1.1.10",
+      "bom-ref": "BomRef.n814fq0jaf.prjnoof4lu",
+      "publisher": "NOASSERTION",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/Microsoft.Bcl"
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/servicestack/servicestack",
+      "version": "v4.0.40",
+      "bom-ref": "BomRef.ophhp5hnplo.gln7nnh97s8",
+      "publisher": "servicestack",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "concluded"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-or-later",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MS-PL",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:github/servicestack/servicestack",
+      "externalReferences": [
+        {
+          "url": "https://github.com/servicestack/servicestack",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/malihu/malihu-custom-scrollbar-plugin",
+      "version": "3.0.9",
+      "bom-ref": "BomRef.p03iickqmvo.k8nbofqi21",
+      "publisher": "malihu",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/malihu/malihu-custom-scrollbar-plugin",
+      "externalReferences": [
+        {
+          "url": "https://github.com/malihu/malihu-custom-scrollbar-plugin",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/pandas-dev/pandas",
+      "version": "v0.9.0rc1",
+      "bom-ref": "BomRef.p34vlpkd09g.vf5qtjobhko",
+      "publisher": "pandas-dev",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/pandas-dev/pandas",
+      "externalReferences": [
+        {
+          "url": "https://github.com/pandas-dev/pandas",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/foundation/bower-foundation",
+      "version": "5.5.0",
+      "bom-ref": "BomRef.rfeshf4m7sg.7btt82llpog",
+      "publisher": "foundation",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/foundation/bower-foundation",
+      "externalReferences": [
+        {
+          "url": "https://github.com/foundation/bower-foundation",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/servicestack/servicestack",
+      "version": "v4.0.24",
+      "bom-ref": "BomRef.sfuc8nlb098.ph48q8ma6ng",
+      "publisher": "servicestack",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "concluded"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-or-later",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MS-PL",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:github/servicestack/servicestack",
+      "externalReferences": [
+        {
+          "url": "https://github.com/servicestack/servicestack",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/components/jqueryui",
+      "version": "1.10.4",
+      "bom-ref": "BomRef.sha2nbeqjt.ngce82f0ei8",
+      "publisher": "components",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/components/jqueryui",
+      "externalReferences": [
+        {
+          "url": "https://github.com/components/jqueryui",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/pandas-dev/pandas",
+      "version": "v0.16.2",
+      "bom-ref": "BomRef.ts4fl8dkojo.ai3tp97gr98",
+      "publisher": "pandas-dev",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:github/pandas-dev/pandas",
+      "externalReferences": [
+        {
+          "url": "https://github.com/pandas-dev/pandas",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/servicestack/servicestack",
+      "version": "v4.0.42",
+      "bom-ref": "BomRef.tuikmmag3dg.1tn4hiqaj8g",
+      "publisher": "servicestack",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "concluded"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-or-later",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MS-PL",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:github/servicestack/servicestack",
+      "externalReferences": [
+        {
+          "url": "https://github.com/servicestack/servicestack",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:github/servicestack/servicestack",
+      "version": "v4.0.34",
+      "bom-ref": "BomRef.udq73ec0bp8.daptdaoudcg",
+      "publisher": "servicestack",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-only",
+            "acknowledgement": "concluded"
+          }
+        },
+        {
+          "license": {
+            "id": "AGPL-3.0-or-later",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MS-PL",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:github/servicestack/servicestack",
+      "externalReferences": [
+        {
+          "url": "https://github.com/servicestack/servicestack",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pkg:jquery/jquery",
+      "version": "1.11.1.min",
+      "bom-ref": "BomRef.up0sbugctug.k4c03mi5m98",
+      "publisher": "jquery",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "purl": "pkg:jquery/jquery",
+      "externalReferences": [
+        {
+          "url": "https://code.jquery.com/jquery-1.11.1.min.js",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "BomRef.04ne5jkvcho.abegg9tpntg"
+    },
+    {
+      "ref": "BomRef.05f837mng0o.orobcl8htrg"
+    },
+    {
+      "ref": "BomRef.15228g9i27g.q78sdh4sjbg"
+    },
+    {
+      "ref": "BomRef.18edksht5v.8gbh6qs07po"
+    },
+    {
+      "ref": "BomRef.1bn9iekfqg.kq6j1lpivo8"
+    },
+    {
+      "ref": "BomRef.30mct5tu3cg.h6rtn1kce28"
+    },
+    {
+      "ref": "BomRef.45gn2sad6ko.lgcsrjsmjvg"
+    },
+    {
+      "ref": "BomRef.4c9p09kkm7.tkjbd11vrno"
+    },
+    {
+      "ref": "BomRef.4j59jac90eo.em0c7n5jc8"
+    },
+    {
+      "ref": "BomRef.4p77c345ueg.80nhbnsi5do"
+    },
+    {
+      "ref": "BomRef.7e8umcqr7b8.bnac638ggm"
+    },
+    {
+      "ref": "BomRef.8boi098lerg.s36gem9ok3o"
+    },
+    {
+      "ref": "BomRef.9ckoelu5t5.h5k4v6iv8hg"
+    },
+    {
+      "ref": "BomRef.9sesdjaif4.ns9qd59v5d"
+    },
+    {
+      "ref": "BomRef.a19ohdkq0ig.ovtb0qufc2o"
+    },
+    {
+      "ref": "BomRef.aoiouo0g3mg.t7rkgqi9cvo"
+    },
+    {
+      "ref": "BomRef.brdu4l3toso.1qg52f9p1o"
+    },
+    {
+      "ref": "BomRef.c7l736oj3j8.shue8hhnhl"
+    },
+    {
+      "ref": "BomRef.d0u0qoaj0so.jhagkirh78"
+    },
+    {
+      "ref": "BomRef.djdug3f4i1o.hbr1l206aeo"
+    },
+    {
+      "ref": "BomRef.do2t9pn4ebo.biuaj8l180o"
+    },
+    {
+      "ref": "BomRef.e9s5sa3qh9.nr8nq8nrtu8"
+    },
+    {
+      "ref": "BomRef.ej6oar8ob5.t0fk8arls0g"
+    },
+    {
+      "ref": "BomRef.f4tegn661vo.sfkpndf5j2o"
+    },
+    {
+      "ref": "BomRef.gfie9hc5278.6qk4e7rearo"
+    },
+    {
+      "ref": "BomRef.ic3csj4kdpo.nbdvcfnabco"
+    },
+    {
+      "ref": "BomRef.icim35mj0ho.na8ouaqo788"
+    },
+    {
+      "ref": "BomRef.l587tnfsang.k97f36us3n8"
+    },
+    {
+      "ref": "BomRef.l6ibsqnccbo.h6k23417up"
+    },
+    {
+      "ref": "BomRef.m4u8p2lbsdg.n9tjmbh5arg"
+    },
+    {
+      "ref": "BomRef.n814fq0jaf.prjnoof4lu"
+    },
+    {
+      "ref": "BomRef.nhpku0hbo68.hgl9vj6pmsg"
+    },
+    {
+      "ref": "BomRef.ophhp5hnplo.gln7nnh97s8"
+    },
+    {
+      "ref": "BomRef.p03iickqmvo.k8nbofqi21"
+    },
+    {
+      "ref": "BomRef.p34vlpkd09g.vf5qtjobhko"
+    },
+    {
+      "ref": "BomRef.rfeshf4m7sg.7btt82llpog"
+    },
+    {
+      "ref": "BomRef.sfuc8nlb098.ph48q8ma6ng"
+    },
+    {
+      "ref": "BomRef.sha2nbeqjt.ngce82f0ei8"
+    },
+    {
+      "ref": "BomRef.ts4fl8dkojo.ai3tp97gr98"
+    },
+    {
+      "ref": "BomRef.tuikmmag3dg.1tn4hiqaj8g"
+    },
+    {
+      "ref": "BomRef.udq73ec0bp8.daptdaoudcg"
+    },
+    {
+      "ref": "BomRef.up0sbugctug.k4c03mi5m98"
+    }
+  ]
+}
