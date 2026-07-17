@@ -1,0 +1,76 @@
+name: Generate SBOM Summary Report
+
+on:
+  push:
+    paths:
+      - "Sbom/**.json"
+      - "targets/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sbom-report-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate-report:
+    # Guard against the bot's own commit re-triggering this workflow in a
+    # loop. This matters more now: the job writes to both Sbom/ and
+    # reports/, and Sbom/**.json is itself a trigger path, so without this
+    # check the bot's own commit would kick off another run.
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Scan uploaded project folders with SCANOSS
+        run: |
+          mkdir -p Sbom
+          shopt -s nullglob
+          found=0
+          for dir in targets/*/; do
+            found=1
+            name=$(basename "$dir")
+            echo "Scanning '$name' with SCANOSS ..."
+            # --format cyclonedx writes a CycloneDX SBOM, the same format
+            # generate_sbom_report.py already knows how to parse.
+            # SCANOSS's public OSS KB API (api.osskb.org) is used by default
+            # and does not require an API key for this kind of scan.
+            if ! scanoss-py scan "$dir" --format cyclonedx -o "Sbom/${name}.json"; then
+              echo "  SCANOSS scan failed for '$name' — skipping" >&2
+            fi
+          done
+          if [ "$found" -eq 0 ]; then
+            echo "No project folders found under targets/ — nothing to scan."
+          fi
+
+      - name: Generate SBOM summary report
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_sbom_report.py
+
+      - name: Commit and push report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Sbom/ reports/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update SBOM(s) and summary report [skip ci]"
+            git push
+          fi
